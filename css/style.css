@@ -1,7 +1,25 @@
 /* Modifications apportées */
-.quote {
+.quote { 
     font-size: 20px;
     line-height: 2.5rem;
+}
+
+.form-group {
+    display:flex;
+    justify-content:center;
+    margin-bottom:20px;
+}
+
+
+@media (max-width: 767px) {
+    .img-responsive {
+        width:50%;
+        margin:auto;
+    }
+
+    .col-sm-6 p{
+        margin-bottom: 30px;
+    }
 }
 
 
@@ -757,10 +775,10 @@ h4 {
     margin-bottom: 24px;
 }
 
-.portfolio-row {
+/* .portfolio-row {         Suppression des margin top et bottom
     margin-bottom: 44px;
     margin-top: 50px;
-}
+} */
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
@@ -824,20 +842,23 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("../img/dots-bg.png");
+    background-image: url("../img/dots-bg.png"); /* Changement d'adresse */
 }
 
 .bg-lines-h2-bg {
-    background-image: url("../img/lines-h2-bg.png");
+    background-image: url("../img/lines-h2-bg.png"); /* Changement d'adresse */
 }
+
 
 .bg-banniere {
-    background-image: url("../img/agence-la-panthere.jpg");
+    background-image: url("../img/agence-la-panthere.jpg"); /* Changement d'adresse */
 }
 
+
 .bg-presentation {
-    background-image: url("../img/image-de-presentation.bmp");
+    background-image: url("../img/image-de-presentation.bmp"); /* Changement d'adresse */
 }
+
 
 @media (max-width: 1024px) {
     .bloc {
