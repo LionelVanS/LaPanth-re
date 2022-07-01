@@ -1,16 +1,20 @@
-/* Modifications apportées */
+/* Modifications apportées à ranger dans le code */
+
+/* Citation lignes 145 à 149 */
+
 .quote { 
     font-size: 20px;
     line-height: 2.5rem;
 }
 
+/* Conteneurs du forumalaire sur la page 2 */
 .form-group {
     display:flex;
     justify-content:center;
     margin-bottom:20px;
 }
 
-
+/* Portofolio */
 @media (max-width: 767px) {
     .img-responsive {
         width:50%;
@@ -38,7 +42,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    /* Suppression d'une propriété outline:none */
 }
 
 a:hover {
@@ -46,19 +50,10 @@ a:hover {
     cursor: pointer;
 }
 
-/* Style d'un loader déclaré mais non utilisé */
- 
-/* #page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-} */
+/* Suppression d'un loader inutilisé, fichier gif manquant */
 
 .bloc {
-    width: 100%;
+    /* Suppression de la width:100% */
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -398,7 +393,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 100px;  /* Changement de 20px pour 100px */
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -492,9 +487,7 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none!important;
-}
+/* Suppression d'une propriété outline:none sur sélecteur .button */
 
 .btn-rd {
     border-radius: 40px;
@@ -686,9 +679,7 @@ a {
     color: #575757!important;
 }
 
-.container {
-    max-width: 1000px;
-}
+/* Suppression de la propriété max-width sur le sélecteur .containeur */
 
 .hero-bloc-text {
     font-size: 38px;
@@ -705,12 +696,10 @@ a {
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
-p {
-    font-size: 11px;
-}
+/* Suppression de la propriété font size: 11px sur les paragraphes */
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -775,10 +764,10 @@ h4 {
     margin-bottom: 24px;
 }
 
-/* .portfolio-row {         Suppression des margin top et bottom
+.portfolio-row {         
     margin-bottom: 44px;
     margin-top: 50px;
-} */
+}
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
@@ -861,10 +850,7 @@ h4 {
 
 
 @media (max-width: 1024px) {
-    .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+     /* Suppression du padding left et right */
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
