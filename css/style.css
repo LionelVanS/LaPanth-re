@@ -26,8 +26,10 @@
     }
 }
 
-
-
+/* Modification de la couleur des liens dans le footer */
+li a {
+    color:black!important;
+}
 /* Fin des modifications */
 
 body {
@@ -713,7 +715,7 @@ a {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #000000;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -757,7 +759,11 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #fff!important;
+}
+
+.black {
+    color:#000!important; /* Création d'une classe pour ajouter la couleur noir sur les sélecteurs */
 }
 
 .portfolio-thumb {
@@ -796,12 +802,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fff!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important; /* Changement de couleurs de blanc à noir pour l'accessibilité */
 }
 
 .btn-atomic-tangerine:hover {
