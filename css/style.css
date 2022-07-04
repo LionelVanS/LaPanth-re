@@ -110,11 +110,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("../img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -153,7 +148,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .d-bloc .a-btn:hover,
@@ -717,7 +712,7 @@ a {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
