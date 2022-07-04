@@ -7,13 +7,6 @@
     line-height: 2.5rem;
 }
 
-/* Conteneurs du forumalaire sur la page 2 */
-.form-group {
-    display:flex;
-    justify-content:center;
-    margin-bottom:20px;
-}
-
 /* Portofolio */
 @media (max-width: 767px) {
     .img-responsive {
@@ -395,7 +388,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 100px;  /* Changement de 20px pour 100px */
+        right: 100px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
