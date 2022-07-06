@@ -76,17 +76,17 @@
 		<!-- Header bloc-0 END -->
 
 		<!-- Section bloc-6 bannière -->
-		<section class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine">
+		<section class=" bloc bg-dots-bg bg-repeat bgc-atomic-tangerine">
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-12">
-						<h1 class="text-center hero-bloc-text"> <!-- Modification du style sur le titre -->
+						<h1 class="hero-bloc-text text-center"> <!-- Modification du style sur le titre -->
 							Parlons web design !
 						</h1>
-						<p class="text-center mg-lg tight-width-whitespace black"> <!-- Modification du style sur le texte -->
+						<h2 class="text-center"> <!-- Modification du style sur le texte -->
 							Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 							Parlez-nous de votre projet en complétant le formulaire ci-dessous.
-						</p>
+						</h2>
 					</div>
 				</div>
 			</div>
@@ -97,22 +97,22 @@
 		<Section class="bloc l-bloc">
 			<div class="container bloc-lg">
 				<div class="row align-items-center">
-					<div class="col-sm-6">
+					<div class="col-sm-12">
 						<form id="form_1" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 								<label> <!-- Rajout d'un label autour des 4 inputs du bloc -->
-									<input id="name" class="form-control" required placeholder="Nom" />
+									<input id="name" class="form-control" aria-label="Entrez votre nom" required placeholder="Nom"/>
 								</label>
 
 								<label> <!-- Rajout d'un label autour des 4 inputs du bloc -->
-									<input id="email" class="form-control" type="email" required placeholder="Email" />
-								</label>
-
-								<label class="form-group"> <!-- Rajout d'un label autour des 4 inputs du bloc -->
-									<input class="form-control" type="email" required id="input_504" placeholder="Comment nous avez-vous connu?"/>
+									<input id="email" class="form-control" aria-label="Entrez votre adresse mail"  type="email" required placeholder="Email" />
 								</label>
 
 								<label> <!-- Rajout d'un label autour des 4 inputs du bloc -->
-									<textarea id="message" class="form-control" rows="4" cols="50" required placeholder="Brief de votre projet (Ajoutez autant de détails que nécessaire)"></textarea>
+									<input class="form-control" type="email" aria-label="Comment nous avez vous connu ?"  required id="input_504" placeholder="Comment nous avez-vous connu?"/>
+								</label>
+
+								<label> <!-- Rajout d'un label autour des 4 inputs du bloc -->
+									<textarea id="message" class="form-control" aria-label="Expliquez votre projet avec autant de détails que nécessaire"  rows="4" cols="50" required placeholder="Expliquez votre projet avec autant de détails que nécessaire"></textarea>
 								</label>
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 								ENVOYER
