@@ -7,6 +7,14 @@
         margin:auto;
     }
 
+    input, 
+    textarea,
+    label  {
+        width:50%!important;
+        margin:auto;
+        margin-bottom:20px;
+    }
+
     /* Fin des modifications */
     #adress a {
         margin-left:40px;

@@ -99,21 +99,20 @@
 				<div class="row align-items-center">
 					<div class="col-sm-12">
 						<form id="form_1" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-								<label> <!-- Rajout d'un label autour des 4 inputs du bloc -->
-									<input id="name" class="form-control" aria-label="Entrez votre nom" required placeholder="Nom"/>
-								</label>
+							<label for="nom">Entrez votre nom:</label>
+							<input id="nom" name="nom" class="form-control col-sm-3" aria-labelledby="nom" required="required" placeholder="Marcel Proust"/>
+							
+							<label for="email">Entrez votre email:</label>
+							<input id="email" name="email" type="email" class="form-control" aria-labelledby="email" required="required" placeholder="Marcel.Proust@caramail.com" />
+							
 
-								<label> <!-- Rajout d'un label autour des 4 inputs du bloc -->
-									<input id="email" class="form-control" aria-label="Entrez votre adresse mail"  type="email" required placeholder="Email" />
-								</label>
+							<label for="connaissance"> Comment nous avez vous connu ?</label>
+							<input id="connaissance" name="connaissance" type="text"  class="form-control" aria-labelledby="connaissance" required="required" placeholder="Jacques Bizet m'a parlé de vous"/>
+							
 
-								<label> <!-- Rajout d'un label autour des 4 inputs du bloc -->
-									<input class="form-control" type="email" aria-label="Comment nous avez vous connu ?"  required id="input_504" placeholder="Comment nous avez-vous connu?"/>
-								</label>
-
-								<label> <!-- Rajout d'un label autour des 4 inputs du bloc -->
-									<textarea id="message" class="form-control" aria-label="Expliquez votre projet avec autant de détails que nécessaire"  rows="4" cols="50" required placeholder="Expliquez votre projet avec autant de détails que nécessaire"></textarea>
-								</label>
+							<label for="message">Expliquez votre projet (détaillé le au maximum)</label>
+							<textarea id="message" name="message" type="text" class="form-control" aria-labelledby="message"  rows="4" required="required" placeholder="Je voudrais un site de e-commerce"></textarea>
+							
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 								ENVOYER
 							</button>
@@ -125,18 +124,15 @@
 		</Section>
 		<!-- Section bloc-7 END Formulaire -->
 
-		<!-- ScrollToTop Button -->
-		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-		<!-- ScrollToTop Button END-->
 
 		<!-- Footer - bloc-8 -->
 		<Footer class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc">
 			<div class="container bloc-sm">
 				<div class="row">
 					<div class="col-sm-12">
-						<h4>
+						<h3>
 							Agence La Panthère
-						</h4>
+						</h3>
 						<div class="col-sm-12" id="adress">
 							<p>2 place Sathonay<br>
 								69001 Lyon</p>
