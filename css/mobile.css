@@ -1,6 +1,16 @@
 
 /* Media Queries MOBILE */
 @media (max-width: 767px) {
+    /* Modifications sur le code */
+    #adress {
+        width:200px;
+        margin:auto;
+    }
+
+    /* Fin des modifications */
+    #adress a {
+        margin-left:40px;
+    }
     .container {
         width: 100%;
     }
