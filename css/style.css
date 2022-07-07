@@ -33,7 +33,7 @@ form button {
     color:#fff!important;
 }
 
-#adress p, a {
+#adress{
     margin:0 0 0 30px;
 
 }
@@ -48,7 +48,11 @@ h4 {
 }
 
 .logo-ban {
-    width:100px;
+    width:200px;
+}
+
+footer img {
+    width:400px;
 }
 /* Fin des modifications */
 
@@ -71,21 +75,8 @@ a:hover {
     cursor: pointer;
 }
 
-/* Suppression d'un loader inutilisé, fichier gif manquant */
-
-.bloc {
-    clear: both;
-    background: 50% 50% no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: relative;
-}
-
-
 .bloc-lg {
-    padding: 50px 0 50px 0;
+    padding: 0 0 50px 0;
 }
 
 .bloc-md {
@@ -93,7 +84,7 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 20px;
+    padding: 30px 20px;
 }
 
 .bg-center,
@@ -129,11 +120,6 @@ a:hover {
     left: 0;
     right: 0;
 }
-
-.b-parallax {
-    background-attachment: fixed;
-}
-
 /* Suppression de nombreuses lignes de déclarations de couleurs superflues */
 
 .d-bloc .a-btn,
@@ -200,7 +186,7 @@ a:hover {
 }
 
 .navbar-brand {
-    height: auto;
+    width:250px;
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
@@ -209,7 +195,7 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    width: 400px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -269,43 +255,6 @@ a:hover {
     z-index: 2;
 }
 
-@media (min-width: 768px) {
-    .site-navigation {
-        position: absolute;
-        top: 50%;
-        right: 100px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
-    }
-
-    .nav-invert .site-navigation {
-        left: 0;
-        right: 0;
-    }
-    .nav-center {
-        text-align: center;
-    }
-    .nav-center .navbar-header {
-        width: 100%;
-    }
-    .nav-center .navbar-header,
-    .nav-center .navbar-brand,
-    .nav-center .nav > li {
-        float: none;
-        display: inline-block;
-    }
-    .nav-center .site-navigation {
-        position: relative;
-        width: 100%;
-        right: 0;
-        margin-right: 0px;
-        margin-top: 20px;
-    }
-    .nav-center.mini-nav .navbar-toggle {
-        float: none;
-        margin: 10px auto 0;
-    }
-}
 
 .nav > li > .dropdown a {
     background: none!important;
@@ -687,14 +636,3 @@ h3 {
 .bg-lines-h2-bg {
     background-image: url("../img/lines-h2-bg.png"); /* Changement d'adresse */
 }
-
-
-.bg-banniere {
-    background-image: url("../img/agence-la-panthere.jpg"); /* Changement d'adresse */
-}
-
-
-.bg-presentation {
-    background-image: url("../img/image-de-presentation.jpg"); /* Changement d'adresse */
-}
-
