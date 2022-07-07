@@ -83,8 +83,7 @@
         right: -1px;
     }
     .navbar-brand img {
-        max-height: 40px;
-        width: auto;
+        width: 100%;
     }
     .nav-invert .navbar-header {
         float: none;
@@ -123,15 +122,11 @@
         display: none;
     }
     .voffset {
-        margin-top: 5px;
+        margin: 30px;
     }
     .voffset-md {
         margin-top: 20px;
     }
-    .voffset-lg {
-        margin-top: 30px;
-    }
-
     .close-lightbox {
         display: inline-block;
     }
