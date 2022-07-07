@@ -1,10 +1,17 @@
 
 /* Media Queries MOBILE */
 @media (max-width: 767px) {
-    /* Modifications sur le code */
     #adress {
-        width:200px;
+        width:250px;
         margin:auto;
+    }
+
+    #adress a {
+        margin-left:25px;
+    }
+
+    .social {
+        margin:0;
     }
 
     input, 
@@ -15,10 +22,10 @@
         margin-bottom:20px;
     }
 
-    /* Fin des modifications */
-    #adress a {
-        margin-left:40px;
+    footer img {
+        width:100%;
     }
+
     .container {
         width: 100%;
     }
